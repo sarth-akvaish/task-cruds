@@ -21,7 +21,7 @@ router.post('/sendEmail', async (req, res) => {
             name: 'Sarthak Vaish',
             address: process.env.USER
         },
-        to: ['info@redpositive.in'],
+        to: ['sarthavkumar@gmail.com', 'sarthakvkumar@gmail.com'],
         subject: 'Selected Items Data',
         text: selectedItemsData.map(item => `Name: ${item.name}, Phone Number: ${item.phoneNumber}, Email: ${item.email}, Hobbies: ${item.hobbies}`).join('\n\n')
     };
