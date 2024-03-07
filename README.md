@@ -14,7 +14,7 @@ To get started with this project, follow the instructions below.
 - Installation
 
 - Clone the repository:
-    - git clone https://github.com/your-username/your-repository.git
+    - git clone https://github.com/sarth-akvaish/task-cruds.git
 
 - Install dependencies:
 
